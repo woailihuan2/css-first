@@ -1,0 +1,120 @@
+<!--
+ * @Author: LAPTOP-PPCDBO7S\Yimso 285715057@qq.com
+ * @Date: 2024-05-20 11:20:12
+ * @LastEditors: LAPTOP-PPCDBO7S\Yimso 285715057@qq.com
+ * @LastEditTime: 2024-05-22 18:56:30
+ * @FilePath: \Web Development\CSS Site\cssTestOne.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      html,
+      body,
+      header,
+      section,
+      footer,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      ul,
+      li,
+      button {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Bahnschrift", "Lucida Sans", "Lucida Sans Regular",
+          "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        -webkit-font-smoothing: antialiased; /* 抗锯齿文本 */
+        -moz-osx-font-smoothing: grayscale; /* 对于Firefox */
+        text-rendering: optimizeLegibility; /* 文本渲染优化 */
+      }
+      ul {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      button {
+        border: none;
+        background: transparent;
+      }
+      .page_head {
+        background: #9564e0;
+        color: white;
+      }
+      .page_title {
+        text-align: center;
+        font: bold 26px/2.5em "Cooper", Arial, Helvetica, sans-serif;
+      }
+      .nav_list {
+        width: fit-content;
+        display: flex;
+        font: 400 14px/3em "Fira code", Arial, Helvetica, sans-serif;
+        margin: 0 auto;
+      }
+      .nav_item {
+        padding: 0 0.8rem;
+      }
+      .page_body {
+        padding: 1.8em 0 1.2em;
+        text-align: center;
+      }
+      .con_title {
+        font: bold 22px/1em "Forte", Arial, Helvetica, sans-serif;
+      }
+      .page_btn {
+        font: 500 14px/1em "Fira code", Arial, Helvetica, sans-serif;
+        color: white;
+        background: #9564e0;
+        border-radius: 8px;
+        padding: 0.8em 1.6em;
+        box-shadow: 0 5px 4px -2px #5e3e8f;
+        transition: all 0.2s ease-in-out;
+      }
+      .page_btn:active {
+        box-shadow: none;
+      }
+      .page_foot {
+        background: #9564e0;
+        text-align: center;
+        font: 400 16px/1em "Fira code", Arial, Helvetica, sans-serif;
+        color: white;
+        padding: 1.5em 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="page_head">
+      <h1 class="page_title">My Website</h1>
+      <nav class="page_nav">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="javascript:void(0)" class="nav_link">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="javascript:void(0)" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="javascript:void(0)" class="nav_link">Content</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="page_body">
+      <h2 class="con_title">Welcome to My Website</h2>
+      <p class="page_content">This is a simple website</p>
+      <button class="page_btn">Toggle CSS</button>
+    </section>
+    <footer class="page_foot">Copyright © App Brewery</footer>
+  </body>
+</html>
